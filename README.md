@@ -18,16 +18,20 @@ This project automates the flow of accounting data from Zoho Books to Looker Stu
 **How the Integration Works**
 Zoho Books to Google Sheets with Zapier:
 The integration is triggered whenever a new entry is created or an existing record is updated in Zoho Books.
+
+![ZohoBooks](./Workflow-Images/ZohoBooks.png)
 Zapier sends this data to a predefined Google Sheet, keeping all records up-to-date.
+![ZapierAutomation](./Workflow-Images/ZapierAutomation.png)
 
 Google Sheets as Data Processor:
 Within Google Sheets, data is dynamically updated and structured using Zapier automation to pull in new entries.
+![GoogleSheets](./Workflow-Images/GoogleSheets.png)
 
 Google Sheets to Looker Studio:
-
 Google Sheets is connected as a data source in Looker Studio.
 Custom dashboards visualize key financial metrics such as monthly revenue, expenditure trends, and cash flow analysis, best products, best clients.
-
+![LookerDashboard1](./Workflow-Images/LookerDashboard1.png)
+![LookerDashboard2](./Workflow-Images/LookerDashboard2.png)
 Impact of the Project
 Reduced Manual Work: The automation has cut down time spent on manual data entry and report generation by over 70%.
 Enhanced Decision-Making: Real-time dashboards offer an up-to-date overview of financial health, helping stakeholders make informed decisions.
